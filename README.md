@@ -1,16 +1,26 @@
-- 👋 Hi, I’m @sergiojunior3424
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
-- color
-- <TITLE>
-barber shop
+header{
+    background: #BBBBBB;
+    padding: 20px 0px; /*space around element inside borders*/
+    transition: 0.5s;
+}
 
-</TITLE>
-<!---
-sergiojunior3424/sergiojunior3424 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+#box{
+    position: relative;/*initial point reference position into of box*/
+    width: 960px;
+    margin: 0 auto;
+}
+
+#box h1 img{
+    width: 15em;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif; /*Font txt*/
+}
+
+
+nav ul{
+    position: absolute; /*initial point reference position with full page*/
+    top: 110px; /*distance of top*/
+    right: 0px;
+}
